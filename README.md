@@ -90,7 +90,6 @@ cd lumos/backend
 pip install huggingface-hub
 hf auth login
 ```
-  
 **NOTE:** This HuggingFace Access Token has been generated explicitly for this repository. It is free-of-cost and safe-to-expose. <br>
 
 There have to be separate virtual environments for running different parts in the workflow. Overall there are 7 virtual environments to be used for the corresponding models- <br>
