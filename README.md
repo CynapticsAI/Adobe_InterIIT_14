@@ -36,11 +36,14 @@ Our solution is built around two complementary workflows that together represent
 
 #### Workflow 1 : AI-Enhanced Image Editing Tools
 
+
+  
+
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/6e53bbb0-c362-404d-8928-7250cf453d72"
-       alt="workflow1"
-       height="400">
+<img  height="400" alt="image" src="https://github.com/user-attachments/assets/d33015c3-3614-4b44-83cc-06f9bdfc4b29" />
 </p>
+
+
 
 The first workflow focuses on intuitive, fine‑grained image editing using a suite of advanced open‑source AI tools. It includes LeDits++ for image‑to‑image transformation, enabling users to refine or restyle their images with high fidelity. For artistic transformations, we integrate a style‑transfer module that automatically selects the most backendropriate style LoRA based on the user’s prompt and backendlies it seamlessly.Region‑level editing is supported through Segment Anything (SAM), which allows users to isolate any part of the image and then choose to erase it, inpaint new content, or manipulate it using Inpaint4Drag, a state‑of‑the‑art drag-based deformation model.Additionally, the workflow includes Lightning Drag, which enables users to adjust the direction or orientation an object is facing, and Generative Expand, an outpainting tool that extends scenes while preserving visual coherence. Together, these tools form an intelligent, flexible editing environment that reflects the natural, prompt‑driven editing experience envisioned for 2030. <br>
 #### Workflow 2: Smart Composition and 3D‑Aware Object Insertion
