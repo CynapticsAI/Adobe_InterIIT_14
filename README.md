@@ -617,3 +617,7 @@ All experiments were conducted on bunch of moderate GPUs on Runpod , while Runpo
 ## Team Members
 * [Shreeyut Maheshwari](https://github.com/shreeyut1905)
 * [Khush Kumar Singh](https://github.com/KK-Singh333)
+* [Ishita Saxena](https://github.com/ishitas2365)
+* [Niyati Mishra](https://github.com/aniyatim)
+* [Garv Jain](https://github.com/zengarv)
+* Divanshi Mehta
