@@ -48,11 +48,8 @@ Our solution is built around two complementary workflows that together represent
 The first workflow focuses on intuitive, fine‑grained image editing using a suite of advanced open‑source AI tools. It includes LeDits++ for image‑to‑image transformation, enabling users to refine or restyle their images with high fidelity. For artistic transformations, we integrate a style‑transfer module that automatically selects the most backendropriate style LoRA based on the user’s prompt and backendlies it seamlessly.Region‑level editing is supported through Segment Anything (SAM), which allows users to isolate any part of the image and then choose to erase it, inpaint new content, or manipulate it using Inpaint4Drag, a state‑of‑the‑art drag-based deformation model.Additionally, the workflow includes Lightning Drag, which enables users to adjust the direction or orientation an object is facing, and Generative Expand, an outpainting tool that extends scenes while preserving visual coherence. Together, these tools form an intelligent, flexible editing environment that reflects the natural, prompt‑driven editing experience envisioned for 2030. <br>
 #### Workflow 2: Smart Composition and 3D‑Aware Object Insertion
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/2983a4fb-a409-41b5-baee-3f8a06ac68b3"
-       alt="workflow1"
-       height="400"
-       width="500"
-     >
+  <img  height="400" alt="image" src="https://github.com/user-attachments/assets/69eaaed1-456d-47a1-9ad0-8cd6f9953077" />
+
 </p>
 
 The second workflow is designed for high‑quality object insertion and blending, enabling users to integrate new elements into a scene with realism and spatial coherence.The process begins with Smart Crop, which prepares and focuses the base image. The user then selects any object image to insert, and the system automatically removes its background, isolating the subject. This extracted object is passed through a 2D‑to‑3D generation model, which reconstructs a lightweight 3D representation that allows proper orientation, scaling, and positioning relative to the target image. Once the 3D orientation is finalized, the object is composited back into the scene. The blended result is then refined through a relighting model, ensuring that shadows, highlights, and color temperature align with the background. Finally, the combined and harmonized output is delivered, producing an integrated and realistic image with minimal user effort.
