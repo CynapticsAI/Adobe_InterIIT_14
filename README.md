@@ -27,6 +27,7 @@
 - [Ethical Considerations](#ethical-considerations)
 - [Compute Profile](#compute-profile)
 - [References](#references)
+- [Team Members](#team-members)
 
 ## Introduction
 ### Problem understanding 
@@ -610,3 +611,8 @@ All experiments were conducted on bunch of moderate GPUs on Runpod , while Runpo
    *InvisMark: Invisible and Robust Watermarking for AI-generated Image Provenance*
     arXiv:2411.07795 [cs.CV]  
    https://arxiv.org/abs/2411.07795
+
+
+
+## Team Members
+* [Shreeyut Maheshwari](https://github.com/shreeyut1905)
