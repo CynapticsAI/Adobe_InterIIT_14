@@ -5,7 +5,7 @@
 <h2>Demo Video</h2>
 
 <a href="https://youtu.be/i-tt5Jt7GBY">
-  <img src="https://img.youtube.com/vi/8_Ilw67fWEA/maxresdefault.jpg" 
+  <img src="https://github.com/user-attachments/assets/0484d8d2-7d12-45e4-817f-ed608797e6fc" 
        width="550" 
        height="350" 
        alt="Demo Video Thumbnail">
